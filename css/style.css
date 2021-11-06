@@ -38,6 +38,15 @@ section {
   -ms-flex-pack: center;
   justify-content: center;
 }
+.split > * {
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 30%;
+  min-width: 15em;
+}
+
+.spacing > * + * {
+  margin-top: var(--spacer, 2rem);
+}
 .btn {
   display: inline-block;
   text-decoration: none;
