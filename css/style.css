@@ -66,3 +66,12 @@ section {
   line-height: 1;
   text-transform: uppercase;
 }
+
+.section-title {
+}
+
+.hero {
+  text-align: center;
+  padding: 15em 0;
+  background-image: url(../img/shoe-3.png);
+}
