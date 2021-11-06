@@ -13,3 +13,28 @@ img {
   height: auto;
   display: block;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+section {
+  padding: 7em 0;
+}
+.container {
+  width: 85%;
+  max-width: 65em;
+  margin: 0 auto;
+}
+.split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
