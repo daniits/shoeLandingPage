@@ -77,6 +77,11 @@ section {
 }
 
 .section-title {
+  text-align: center;
+  font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
+  line-height: 1;
+  color: #17353d;
+  margin-bottom: 5rem;
 }
 
 .hero {
